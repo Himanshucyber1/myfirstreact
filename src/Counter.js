@@ -20,8 +20,8 @@ export default function Counter() {
     <div>
    {num}
     </div>
-    <button onClick={Add}>Add</button>
-    <button onClick={Sub}>Subtract</button>
+    <button onClick={Additon}>Add</button>
+    <button onClick={Subtraction}>Subtract</button>
     <button onClick={Multiply}>Mul</button>
     <button onClick={Divide}>Divide</button>
   </>
