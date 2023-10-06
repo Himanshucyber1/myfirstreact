@@ -1,0 +1,21 @@
+li{
+    color:red;
+    /* display: inline-block; */
+    
+}
+.xyz{
+    font-size: 50px;
+    position: relative;
+    left: 400px;
+    
+    color: #3c3c55;
+}
+.abc
+{
+    color: rgba(41, 146, 179, 0.555);
+}
+*{
+    background: rgba(157, 219, 204, 0.966);
+margin: 0px;
+padding: 10px;
+}
