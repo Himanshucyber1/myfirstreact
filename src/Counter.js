@@ -2,7 +2,7 @@ import React , {useState } from 'react'
 
 export default function Counter() {
     const [num,setNum]=useState(5);
-    function Add(){
+    function Addition(){
    setNum(num+1) 
     }
     function Sub(){
@@ -20,7 +20,7 @@ export default function Counter() {
     <div>
    {num}
     </div>
-    <button onClick={Add}>Add</button>
+    <button onClick={Addition}>Add</button>
     <button onClick={Sub}>Subtract</button>
     <button onClick={Multiply}>Mul</button>
     <button onClick={Divide}>Divide</button>
